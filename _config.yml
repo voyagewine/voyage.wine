@@ -8,6 +8,9 @@ collections:
   uploads:
     title: Uploads
     output: true
+  wine:
+    title: Wine
+    output: true
 defaults:
 - scope:
     path: ''
