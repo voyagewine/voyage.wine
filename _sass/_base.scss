@@ -151,16 +151,27 @@ p {
   }
 }
 
+.landing-logo{
+  height: 30vh;
+  margin-left: -2em;
+  filter: drop-shadow(0.5px 0.5px 2px #222);
+}
+.landing-tagline{
+  font-family: 'Ovo';
+  // text-shadow: 1px 1px 2px #000;
+}
+
 header {
   position: relative;
   width: 100%;
   min-height: auto;
   overflow-y: hidden;
-  background: url("../img/bg-pattern.png"), $head-primary;
-  /* fallback for old browsers */
-  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, $head-primary, $head-secondary);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: url("../img/bg-pattern.png"), linear-gradient(to left, $head-primary, $head-secondary);
+  background: url("../img/bg.jpg");
+  // background: url("../img/bg-pattern.png"), $head-primary;
+  // /* fallback for old browsers */
+  // background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, $head-primary, $head-secondary);
+  // /* Chrome 10-25, Safari 5.1-6 */
+  // background: url("../img/bg-pattern.png"), linear-gradient(to left, $head-primary, $head-secondary);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white;
   .header-content {
