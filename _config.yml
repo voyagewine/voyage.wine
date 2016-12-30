@@ -1,0 +1,29 @@
+---
+title: Voyage.wine
+timezone: Asia/Hong_Kong
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+  wine:
+    title: Wine
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+    permalink: "/posts/:title/"
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
+permalink: pretty
+include:
+- vendor
+addthis_id: ra-5865622f27c7bc18
