@@ -153,6 +153,7 @@ p {
 
 .landing-logo{
   height: 30vh;
+  min-height: 150px;
   margin-left: -2em;
   filter: drop-shadow(0.5px 0.5px 2px #222);
 }
@@ -194,6 +195,10 @@ header {
           margin-bottom: 25px;
         }
       }
+      .addthis_inline_follow_toolbox{
+        display: flex;
+        justify-content: center;
+      }
     }
   }
   .device-container {
@@ -220,6 +225,9 @@ header {
         transform: translateY(-50%);
         h1 {
           font-size: 35px;
+        }
+        .addthis_inline_follow_toolbox{
+          justify-content: flex-start;
         }
       }
     }

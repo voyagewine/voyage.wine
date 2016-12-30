@@ -114,6 +114,7 @@ p {
           color: #fdcc52; } }
 .landing-logo {
   height: 30vh;
+  min-height: 150px;
   margin-left: -2em;
   filter: drop-shadow(0.5px 0.5px 2px #222); }
 
@@ -145,6 +146,9 @@ header {
         header .header-content .header-content-inner .list-badges img {
           height: 50px;
           margin-bottom: 25px; }
+      header .header-content .header-content-inner .addthis_inline_follow_toolbox {
+        display: flex;
+        justify-content: center; }
   header .device-container {
     max-width: 300px;
     margin: 0 auto 100px; }
@@ -166,6 +170,8 @@ header {
         transform: translateY(-50%); }
         header .header-content .header-content-inner h1 {
           font-size: 35px; }
+        header .header-content .header-content-inner .addthis_inline_follow_toolbox {
+          justify-content: flex-start; }
     header .device-container {
       max-width: none;
       max-height: calc(0vh);
