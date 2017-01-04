@@ -184,7 +184,8 @@ header {
   header .header-content .header-content-inner h1 {
     font-size: 50px; }
 
-  background-size: cover; }
+  header {
+    background-size: cover; } }
 section {
   padding: 100px 0; }
   section h2 {
